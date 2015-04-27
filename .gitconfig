@@ -1,0 +1,33 @@
+[user]
+	name = Justin Chan
+	email = justin.the.c@gmail.com
+[push]
+	default = current
+[pull]
+	default = current
+[color]
+	ui = true
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+[alias]
+	# git basic commands
+
+	a = add .
+	b = branch
+	c = commit -m
+	ca = commit -am
+	co = checkout
+	cob = checkout -b
+	d = diff
+	dl = diff HEAD^
+	f = fetch
+	l = log
+	p = push
+	s = status
+	uncommit = reset --soft HEAD^
+
+	# list aliases
+	alias = !git config --list | grep 'alias\\.' | sed 's/alias\\.\\([^=]*\\)=\\(.*\\)/\\1\\t=> \\2/' | sort
