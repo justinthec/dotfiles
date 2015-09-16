@@ -3,4 +3,5 @@ for f in $(ls -a configs)
 do
   echo "Symlinking $f to ${HOME}/$f"
   ln -sf "$(pwd)/configs/$f" "${HOME}/$f"
+  source ${HOME}/$f
 done
