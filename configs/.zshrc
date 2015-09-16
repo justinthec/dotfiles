@@ -49,7 +49,7 @@ plugins=(git)
 
 # User configuration
 
-export PATH=$PATH:"/Users/justinchan/.rvm/gems/ruby-1.9.3-p125/bin:/Users/justinchan/.rvm/gems/ruby-1.9.3-p125@global/bin:/Users/justinchan/.rvm/rubies/ruby-1.9.3-p125/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/justinchan/.rvm/bin:/usr/local/bin"
+export PATH="/opt/vagrant/bin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
