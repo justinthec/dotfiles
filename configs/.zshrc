@@ -85,3 +85,5 @@ function runVagrant() {
    cd ~/Documents/Shopify/vagrant && vagrant $1
 }
 alias vag="runVagrant"
+
+alias be="bundle exec"
