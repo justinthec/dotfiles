@@ -50,6 +50,7 @@ plugins=(git)
 # User configuration
 
 export PATH="/opt/vagrant/bin:$PATH"
+export PATH="~/bin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
