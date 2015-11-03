@@ -91,4 +91,4 @@ alias be="bundle exec"
 
 alias s="cd src/shopify"
 
-alias "bundle install"="bundle check || bundle install —jobs=4"
+alias "bundle install"="bundle check || bundle install --jobs=4"
