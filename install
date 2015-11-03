@@ -1,7 +1,7 @@
 #!/bin/bash
-for f in $(ls -a configs)
+for f in $(find configs -maxdepth 1 -type f -printf "%f\n")
 do
   echo "Symlinking $f to ${HOME}/$f"
   ln -sf "$(pwd)/configs/$f" "${HOME}/$f"
-  source ${HOME}/$f
+  source "${HOME}/$f"
 done
