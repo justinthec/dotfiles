@@ -30,6 +30,7 @@
 	p = push
 	s = status
 	uncommit = reset --soft HEAD^
+        cont = rebase --continue
 
 	# list aliases
 	alias = !git config --list | grep 'alias\\.' | sed 's/alias\\.\\([^=]*\\)=\\(.*\\)/\\1\\t=> \\2/' | sort
