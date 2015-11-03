@@ -88,3 +88,7 @@ function runVagrant() {
 alias vag="runVagrant"
 
 alias be="bundle exec"
+
+alias s="cd src/shopify"
+
+alias "bundle install"="bundle check || bundle install —jobs=4"
