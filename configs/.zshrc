@@ -92,3 +92,5 @@ alias be="bundle exec"
 alias s="cd src/shopify"
 
 alias bi="bundle check || bundle install --jobs=4"
+
+alias cdp="cd ~/Documents/Projects"
