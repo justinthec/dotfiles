@@ -26,7 +26,7 @@
 	d = diff
 	dl = diff HEAD^
 	f = fetch
-        l = log --color --pretty=format:'%C(bold blue)<%an>%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %Cred%h%Creset' --abbrev-commit
+        l = log --color --pretty=format:'%C(bold blue)<%an>%Creset %s %Cgreen(%cr) %n %Cred%h%Creset %C(yellow)%d' --abbrev-commit
 	p = push
 	s = status
 	uncommit = reset --soft HEAD^
