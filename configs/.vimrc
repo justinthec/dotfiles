@@ -1,4 +1,9 @@
 if has("user_commands")
 	command! -bang -nargs=? -complete=file W w<bang> <args>
 endif
-set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+set expandtab
+set tabstop=2
+set softtabstop=0
+set shiftwidth=2
+set smarttab
+set number
