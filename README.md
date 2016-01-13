@@ -5,3 +5,4 @@ Currently:
  - Git
  - Vim
  - Z shell
+ - iTerm2
