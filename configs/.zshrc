@@ -94,3 +94,5 @@ alias s="cd src/shopify"
 alias bi="bundle check || bundle install --jobs=4"
 
 alias dp="cd ~/Documents/Projects"
+
+alias ds="cd ~/Documents/School"
