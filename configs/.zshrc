@@ -51,6 +51,7 @@ plugins=(git)
 
 export PATH="/opt/vagrant/bin:$PATH"
 export PATH="~/bin:$PATH"
+export PATH = "/usr/local/bin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -96,3 +97,5 @@ alias bi="bundle check || bundle install --jobs=4"
 alias dp="cd ~/Documents/Projects"
 
 alias ds="cd ~/Documents/School"
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
