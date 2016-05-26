@@ -82,15 +82,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias g="git"
 
-# Function for vagrant alias
-function runVagrant() {
-   cd ~/Documents/Shopify/vagrant && vagrant $1
-}
-alias vag="runVagrant"
-
 alias be="bundle exec"
-
-alias s="cd src/shopify"
 
 alias bi="bundle check || bundle install --jobs=4"
 
@@ -99,3 +91,10 @@ alias dp="cd ~/Documents/Projects"
 alias ds="cd ~/Documents/School"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+[ -f /opt/dev/dev.sh ] && source /opt/dev/dev.sh # Shopify dev tool added this
+
+# Shopify dev shortcuts
+alias dvu="dev up"
+
+alias dvs="dev server"
