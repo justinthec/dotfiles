@@ -49,9 +49,6 @@ plugins=(git)
 
 # User configuration
 
-export PATH="/opt/vagrant/bin:$PATH"
-export PATH="~/bin:$PATH"
-export PATH="/usr/local/bin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -90,11 +87,12 @@ alias dp="cd ~/Documents/Projects"
 
 alias ds="cd ~/Documents/School"
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-
 [ -f /opt/dev/dev.sh ] && source /opt/dev/dev.sh # Shopify dev tool added this
 
 # Shopify dev shortcuts
 alias dvu="dev up"
 
 alias dvs="dev server"
+
+export NVM_DIR="/Users/justinchan/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
