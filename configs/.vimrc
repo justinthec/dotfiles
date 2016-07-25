@@ -13,6 +13,7 @@ Plugin 'w0ng/vim-hybrid'
 Plugin 'rakr/vim-one'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
+Plugin 'ervandew/supertab'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -75,7 +76,7 @@ nnoremap <leader><space> :nohlsearch<CR>
 nnoremap <C-N> :call NumberToggle()<cr>
 nnoremap <C-F> :NERDTreeFind<cr>
 nnoremap <C-F><C-F> :NERDTreeToggle<cr>
-nnoremap <leader>s :w<cr>
+nnoremap <leader>w :w<cr>
 nnoremap <leader>q :q<cr>
 
 " CtrlP configs
@@ -84,6 +85,9 @@ let g:ctrlp_show_hidden = 1
 
 " NERDTree configs
 let NERDTreeShowHidden = 1
+
+" Supertab configs
+let g:SuperTabDefaultCompletionType = "<c-n>"
 
 " Relative number toggle function
 function! NumberToggle()
