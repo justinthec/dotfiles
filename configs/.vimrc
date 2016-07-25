@@ -75,6 +75,8 @@ nnoremap <leader><space> :nohlsearch<CR>
 nnoremap <C-N> :call NumberToggle()<cr>
 nnoremap <C-F> :NERDTreeFind<cr>
 nnoremap <C-F><C-F> :NERDTreeToggle<cr>
+nnoremap <leader>s :w<cr>
+nnoremap <leader>q :q<cr>
 
 " CtrlP configs
 let g:ctrlp_switch_buffer = 'Et'
