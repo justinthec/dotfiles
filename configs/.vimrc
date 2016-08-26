@@ -14,6 +14,7 @@ Plugin 'rakr/vim-one'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ervandew/supertab'
+Plugin 'pangloss/vim-javascript'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -82,6 +83,8 @@ nnoremap <leader>q :q<cr>
 " CtrlP configs
 let g:ctrlp_switch_buffer = 'Et'
 let g:ctrlp_show_hidden = 1
+let g:ctrlp_user_command = ['.git/', 'cd %s && git ls-files --exclude-standard -co']
+let g:ctrlp_max_files=0
 
 " NERDTree configs
 let NERDTreeShowHidden = 1
