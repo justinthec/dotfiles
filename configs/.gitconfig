@@ -17,7 +17,7 @@
 [alias]
 	# git basic commands
 
-	a = add .
+	a = add
 	b = branch
 	c = commit -m
 	ca = commit -am

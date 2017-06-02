@@ -87,6 +87,8 @@ alias dp="cd ~/Documents/Projects"
 
 alias ds="cd ~/Documents/School"
 
+alias sshuw="ssh jct2chan@linux.student.cs.uwaterloo.ca"
+
 [ -f /opt/dev/dev.sh ] && source /opt/dev/dev.sh # Shopify dev tool added this
 
 # Shopify dev shortcuts
