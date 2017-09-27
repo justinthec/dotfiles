@@ -98,3 +98,5 @@ alias dvs="dev server"
 
 export NVM_DIR="/Users/justinchan/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+alias src241="source ~cs241/setup.bash"
