@@ -88,6 +88,10 @@ alias dp="cd ~/Documents/Projects"
 alias ds="cd ~/Documents/School"
 
 alias sshuw="ssh jct2chan@linux.student.cs.uwaterloo.ca"
+alias sshuwdb2="ssh jct2chan@ubuntu1604-006.student.cs.uwaterloo.ca"
+
+alias python="python3.6"
+alias python2="python"
 
 [ -f /opt/dev/dev.sh ] && source /opt/dev/dev.sh # Shopify dev tool added this
 
